@@ -46,8 +46,5 @@ router.get('/', (req, res, next) => {
     makeImage(req).then(response => res.send(response));
 });
 
-// router.get('/', function(req, res, next) {
-//     getImages().then(response => res.send(response));
-// });
 
 module.exports = router;
